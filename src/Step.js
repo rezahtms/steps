@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "./Button";
 
 const messages = [
   "Learn React ⚛️",
@@ -47,14 +48,6 @@ const Step = () => {
         </div>
       )}
     </div>
-  );
-};
-
-const Button = ({ bg, textColor, children, onClick }) => {
-  return (
-    <button style={{ backgroundColor: bg, color: textColor }} onClick={onClick}>
-      {children}
-    </button>
   );
 };
 
